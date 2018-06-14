@@ -1,0 +1,14 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+h1, .h1{
+    font-size: $h1-font-size;
+    letter-spacing: 0;
+}
+h2, .h2{
+    font-size: $h2-font-size;
+    letter-spacing: -($base-unit * 1.5625); // czy dobrze licz,ma byc -25px
+}
